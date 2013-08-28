@@ -1,0 +1,20 @@
+# cc license http://creativecommons.org/choose/
+
+# enable cc license?, default: nil means disabled, true to enable
+cc_license:
+
+# allow mofiication of works? default: 'yes', options: 'yes', 'no' or 'share'
+cc_license_allow_modification: 'yes'
+
+# allow commercial uses of your work? default: true
+cc_license_allow_commercial_uses: true
+
+# license jurisdiction? default: International
+# //TODO(hoatle): implement cc_license_license_jurisdiction
+#cc_license_license_jurisdiction: International
+
+# add metadata? default: nil //TODO(hoatle): implement cc_license_metadata
+#cc_license_metadata:
+
+# icon styles? default: 'normal', options: 'normal' or 'compact'.
+cc_license_icon: 'normal'
