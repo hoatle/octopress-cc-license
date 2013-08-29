@@ -9,15 +9,53 @@ Usage
 Install and configure, then you're done.
 
 
+Requirements
+------------
+
+- [Octopress](http://octopress.org) version 2.0
+
+
 Installation
 ------------
 
-//TODO(hoatle): finish installation part
+- Copy `source/_include/post/cc_license.html` template
+- Copy configuration contents from `_config_cc_license.yml` to `_config.yml`
+
 
 Configuration
 -------------
 
-//TODO(hoatle): finish configuration part
+- All settings are on `_config.yml`, enable cc_license with: `cc_license: true`
+
+```
+# cc license http://creativecommons.org/choose/
+
+# enable cc license?, default: nil means disabled, true to enable
+cc_license:
+
+# allow mofiication of works? default: 'yes', options: 'yes', 'no' or 'share'
+cc_license_allow_modification: 'yes'
+
+# allow commercial uses of your work? default: true
+cc_license_allow_commercial_uses: true
+
+# license jurisdiction? default: International
+# //TODO(hoatle): implement cc_license_license_jurisdiction
+#cc_license_license_jurisdiction: International
+
+# add metadata? default: nil //TODO(hoatle): implement cc_license_metadata
+#cc_license_metadata:
+
+# icon styles? default: 'normal', options: 'normal' or 'compact'.
+cc_license_icon: 'normal'
+
+```
+
+- Include `source/_include/post/cc_license.html` to any part of `source/_layout/post.html`.
+
+Sample installation and configuration is at:
+https://github.com/teracy-official/blog/commit/4c6feee71b4f2b58d2bed9805580e156093afffe
+
 
 Contributing
 ------------
