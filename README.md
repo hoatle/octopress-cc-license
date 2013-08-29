@@ -20,6 +20,7 @@ Installation
 
 - Copy `source/_include/post/cc_license.html` template
 - Copy configuration contents from `_config_cc_license.yml` to `_config.yml`
+- Copy contents from `sass/custom/_style_cc_license.scss` to `sass/custom/_style.scss`
 
 
 Configuration
