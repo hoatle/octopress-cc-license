@@ -6,7 +6,14 @@ Creative Commons license chooser plugin for octopress as http://creativecommons.
 Usage
 -----
 
-Install and configure, then you're done.
+Complete `Installation` and `Configuration` steps, then add the following content into `post.html`
+as the example from `source/_layout/post.html`
+
+```
+{% if site.cc_license %}
+  {% include post/cc_license.html %}
+{% endif %}
+```
 
 
 Requirements
